@@ -1,4 +1,3 @@
-<?php if(!ob_start( "ob_gzhandler")) ob_start(); ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,12 +9,14 @@
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Please change this fontavesome link href with your own -->
+    
     <link href="//simplecodetips.com/wp-content/themes/simplecodetips/fa/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:200" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="style.css" rel="stylesheet">
-    <?php error_reporting(0); include_once( "../demo/ga.php"); echo "\n"; ?>
 </head>
 
 <body>
@@ -116,7 +117,6 @@
             </div>
         </div>
 
-        <?php include_once( "../demo/sc.php"); echo "\n"; ?>
         <div class="container text-center footer">
             <a href="//simplecodetips.com/people/cosminr/"><?php echo 'CosminR <i class="fa fa-ellipsis-v" aria-hidden="true"></i> '.date("Y"); ?></a>
         </div>
