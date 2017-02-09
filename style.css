@@ -1,0 +1,79 @@
+
+body { background-color: #eaeaea; padding-top: 40px; color: #111; }
+
+.container { max-width: 700px; }
+
+h1 {
+	font-size: 32px;
+  font-weight: 900;
+  margin: 0 0 5px 0;
+  font-family: 'Raleway', sans-serif;
+}
+.st1 { font-size: 12px; color: #85929E; padding-left: 12px; font-family: 'Muli', sans-serif; }
+
+input[type=text] {
+	background-color: #fff; color: #111; padding: 7px !important;
+}
+input[type=text]:focus {
+  border-color: darken(#555, 20%);
+}
+.btn.btn-default {
+  outline: none !important;
+  &:active {
+    background-color: darken(#95a5a6, 20%) !important;
+  }
+}
+.col-sm-12 { padding-top: 4px; }
+.variations { display: none; }
+.footer, .footer a { font-size: x-small; opacity: 0.6; margin-top: 40px; margin-bottom: 43px; color: #333; text-decoration: none; }
+#show a { color: #000; text-decoration: none; }
+#show a:hover { text-decoration: none; }
+.mif, .slt { padding-bottom: 19px; }
+.mif { padding-left: 12px; padding-right: 12px; }
+
+.slt { color: #111; padding-left: 21px; padding-right: 21px; font-size: 12px;  }
+.pgb { padding-top: 15px; }
+.opa1 { color: #111; }
+.hsp { padding-left: 16px; }
+.o7 { color: #808B96; font-family: 'Muli', sans-serif; line-height: 21px; }
+.advice { opacity:  .7; padding-top: 21px; }
+
+.pbt { padding-bottom: 5px; font-family: 'Muli', sans-serif; }
+.pbt  a { padding: 5px; text-decoration: none; color: #808B96; }
+.pbt  a:hover { 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #D6DBDF; 
+	padding: 5px;
+	color: #85929E;
+	text-decoration: none;
+}
+
+.nrh  { 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #D6DBDF; 
+	padding: 5px;
+	text-decoration: none;
+}
+
+.ta { max-width: 600px; }
+
+.progress-bar-info { background-color: #4989c4; }
+.progress-bar-warning { background-color: #ed532d; }
+.progress-bar-success { background-color: #88b04c; }
+.progress-bar-war { background-color: #D5C4A1; }
+.progress { color: #fff; }
+ol > li { line-height: 18px; }
+ol { padding-top: 2px; }
+.advice-text { display: none; }
+.atext { padding-bottom: 2px; }
+.atext a { text-decoration: none; color: #85929E; }
+.text-nowrap {
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 480px) { .spacer { padding-top:120px; } }
+@media screen and (max-width: 480px) { .spacer { padding-top:70px; } }
